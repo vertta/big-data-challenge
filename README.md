@@ -8,6 +8,7 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 * Python
 * Pyspark (Spark Framework)
 * AWS Postgres
+* Hadoop Cluster
 
 The sample selected were for EBOOKS https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Ebook_Purchase_v1_01.tsv.gz https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Ebook_Purchase_v1_00.tsv.gz
 
