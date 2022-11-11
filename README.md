@@ -3,11 +3,11 @@
 In this challenge were were asked to analysis two datasets from Amazon review data which was pulled from 
 https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 
-*Tech Stack:*
-Jupyter Notebook
-Python
-Pyspark (Spark Framework)
-AWS Postgres
+**Tech Stack:**
+* Jupyter Notebook
+* Python
+* Pyspark (Spark Framework)
+* AWS Postgres
 
 The sample selected were for EBOOKS https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Ebook_Purchase_v1_01.tsv.gz https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Ebook_Purchase_v1_00.tsv.gz
 
