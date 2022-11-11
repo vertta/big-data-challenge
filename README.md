@@ -11,7 +11,7 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 
 The sample selected were for EBOOKS https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Ebook_Purchase_v1_01.tsv.gz https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Ebook_Purchase_v1_00.tsv.gz
 
-Columns information for data is as follows:
+Sample columns for Ebook Dataset
 
 <img width="880" alt="image" src="https://user-images.githubusercontent.com/75756974/201268536-8ca6791c-e5e9-434a-bfba-9c5b322cbbcb.png">
 
