@@ -1,4 +1,4 @@
-# big-data-challenge
+#Big Data Challenge
 
 In this challenge were were asked to analysis two datasets from Amazon review data which was pulled from 
 https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
@@ -6,7 +6,7 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 **Tech Stack:**
 * Jupyter Notebook
 * Python
-* Pyspark (Spark Framework)
+* Pyspark (Spark Framework) - Google Colab
 * AWS Postgres
 * Hadoop Cluster
 
@@ -31,5 +31,18 @@ DATA COLUMNS:
 * review_headline - The title of the review.
 * review_body - The review text. 
 * review_date - The date the review was written.
+
+
+Processing Data
+* Step 1:  Created database in AWS RDS Postgres Instance and Database  to hold data after processing
+* Step 2: Created tables to hold data in AWS Progres RDS
+* Step 3:  Created two separate notebooks for processing each dataset (music and ebooks)
+* Step 4:  Performed ETL (Extracted CSV files, created dataframes for each data set, filtered data for processing, loaded data from each dataframe into AWS Postgres 
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/75756974/202345927-716c7256-8dac-47a0-885e-c7f8aedb2caf.png">
+
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/75756974/202345858-e3364f4b-acb6-4695-b410-bb70f5382d9e.png">
+
+* Step 5: Verified Count of each dataset, first uploaded ebooks into database and then added music data for processing
+<img width="429" alt="image" src="https://user-images.githubusercontent.com/75756974/202345727-55243924-9b10-406e-a223-16ed4f188de3.png">
 
 Google Colab was used to create a notebook and process data: https://colab.research.google.com
